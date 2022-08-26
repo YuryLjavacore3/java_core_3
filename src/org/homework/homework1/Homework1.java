@@ -195,14 +195,6 @@ public class Homework1 {
         String textClientData = new String("<client>(Какие то данные)<data>79991113344;test@yandex.ru;Иванов Иван Иванович</data></client>" );
         String textClientData2 = new String("<client>(Какие то данные)<data>Иванов Иван Иванович;79991113344</data></client>");
         String [] arrayTextData = textClientData.split ( ";");
-        for (String word: arrayTextData) {
-            System.out.println(word);
-        }
-        if (textClientData.matches("7991113344")) {
-            System.out.println("Есть цифры.");
-        } else {
-            System.out.println("Цифр нет.");
-        }
 
     }
 }
